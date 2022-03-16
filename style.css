@@ -1,0 +1,85 @@
+
+h2{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  border: 5px double tomato;
+  bottom: 0;
+}
+h3{
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+body {
+  background-image: url(3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.logo img{
+  margin: 0 auto;
+  display: block;
+}
+a{
+  color: #262626;
+  display: inline-block;
+  background: aqua;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.8s;
+}
+a:hover{
+  color: #fff;
+  background: tomato;
+}
+.nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.nav li{
+  display: inline-block;
+  position: relative;
+}
+ .drop{
+  position: absolute;
+  left: -72px;
+  top: 38px;
+  width: 200px;
+  display: none;
+}
+.nav li:hover .drop{
+  display: block;
+}
+.drop a{
+  border-radius: 0;
+  background: #262626;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.drop a:hover{
+  background: #0000ff;
+}
+p{
+  text-align: justify;
+}
+pre{
+  text-align: center;
+  font-size: 20px;
+}
+.footer{
+  text-align: center;
+}
+
+#LoginForm{
+  text-align: center;
+}
+#RegForm{
+  text-align: center;
+}
+
+
